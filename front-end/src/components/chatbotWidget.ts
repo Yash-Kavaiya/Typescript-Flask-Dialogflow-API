@@ -336,7 +336,6 @@ export class ChatbotWidget {
         if (typingIndicator && this.chatMessagesElement.contains(typingIndicator)) {
           this.chatMessagesElement.removeChild(typingIndicator);
         }
-        
         this.addMessage({
           content: 'Sorry, there was an error processing your request.',
           type: MessageType.BOT,
